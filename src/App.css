@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.menu ul{
+  display: flex;
+  gap: 50px;
+  font-size: 16px;
+}
+
+.card{
+  padding: 2rem;
+  text-align: center;
+}
+
+button{
+  cursor: pointer;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus{
+  border-color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+}
+
+.about{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.service{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.image img{
+  width: 500px;
+}
+
+/* //=================//STYLING_FOR_MODAL//=================// */
+
+.main-container{
+  width: 600px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:  1px solid #DADADA;
+  padding: 10px 50px;
+  width: 600px;
+  height: 30px;
+  cursor: pointer;
+  /* color: #5F5F5F; */
+  color: #212121;
+  /* border-radius: 10px; */
+}
+
+.para p{
+  font-size: 12px;
+}
+
+.icon{
+  color: #757575;
+}
+
+.para{
+  padding: 20px;
+  border-left: 1px solid #DADADA;
+  border-right: 1px solid #DADADA;
+}
+
+.last{
+  border-bottom: 1px solid #DADADA;
+  margin-bottom: 100px;
+}
